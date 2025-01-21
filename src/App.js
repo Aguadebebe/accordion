@@ -19,9 +19,9 @@ function App() {
     };
 
   const letters = [
-    { id: 1, title: "A", content: "This is some thing else"},
-    { id: 2, title: "B", content: "It is the expanded Content"},
-    { id: 3, title: "C", content: "C is for foom fam" },
+    { id: 1, title: "A", content: "Hey"},
+    { id: 2, title: "B", content: "Yea!"},
+    { id: 3, title: "C", content: "Hiy" },
   ];
 
   const lettersTwo = [

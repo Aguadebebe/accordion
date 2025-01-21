@@ -7,17 +7,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 40vh;
   font-family: helvetica, sans-serif;
   font-style: italic;
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: rgb(113, 136, 251);
   background-color:blanchedalmond;
 }
 
-.letter {
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
-  font-size: 2em;
-  color:rgb(124, 84, 161);
-  text-shadow:aquamarine;
-}
+ 
