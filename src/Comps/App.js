@@ -1,22 +1,24 @@
-import  Accordion from "./Comps/Accordion";
-import  Accordion2 from "./Comps/Accordion2";
+import  Accordion from "./Accordion";
+import  Accordion2 from "./Accordion2";
 import { useState } from "react";
-import './App.css';
+import '../App.css';
 
 function App() {
-    const [expandedId, setExpandedId] = useState(null);
-    const [expandedIds, setExpandedIds] = useState([]);
+  
+  const [expandedId, setExpandedId] = useState(null);
+  const [expandedIds, setExpandedIds] = useState([]);
  
      
 
-    const handleToggle = (id) => {
+  const handleToggle = (id) => {
       setExpandedId((currentId) => (currentId === id ? null : id));
-    };
+  };
 
-    const handleToggleTwo = (id) => {
+  const handleToggleTwo = (id) => {
       setExpandedIds((currentIds) => 
-      currentIds.includes(id) ? currentIds.filter((currentId) => currentId !== id) : [...currentIds, id]); 
-    };
+      currentIds.includes(id) 
+      ? currentIds.filter((currentId) => currentId !== id) : [...currentIds, id]); 
+  };
 
   const letters = [
     { id: 1, title: "A", content: "Hey"},
